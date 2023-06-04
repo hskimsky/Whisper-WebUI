@@ -6,7 +6,7 @@ PYTHON="venv/bin/python"
 echo "venv ${PYTHON}"
 echo ""
 
-python app.py $*
+python3 app.py $*
 
 deactivate
 
